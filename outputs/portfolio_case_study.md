@@ -3,7 +3,7 @@
 ## 1. Executive Summary
 This project delivers a comprehensive, end-to-end data analytics and predictive modeling solution using the Ames, Iowa housing dataset. By combining rigorous exploratory data analysis, domain-driven feature engineering, and advanced machine learning ensembling, we developed a system capable of explaining and predicting residential real estate values with high precision.
 
-- **Primary Goal Achieved**: Achieved a local Out-Of-Fold (OOF) **RMSLE of 0.11028** and a public leaderboard score of **0.12365** (Rank **1,092** out of **5,279** teams, placing in the **Top 20.7%**, beating our initial target of 0.125).
+- **Primary Goal Achieved**: Achieved a local Out-Of-Fold (OOF) **RMSLE of 0.11028** and a public leaderboard score of **0.12154** (Rank **667** out of **5,273** teams, placing in the **Top 12.6%**, beating our initial target of 0.125).
 - **Core Assets**:
   - Cleaned, imputation-safe preprocessing pipeline
   - 16 engineered domain features (e.g., total living space interactions, bathroom ratios, neighborhood price tiers)

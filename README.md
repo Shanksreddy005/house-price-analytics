@@ -1,15 +1,15 @@
 # House Price Analytics & Predictive Modeling
 
 [![Tableau Dashboard](https://img.shields.io/badge/Tableau-Dashboard-orange.svg)](file:///c:/Users/ShaShank/OneDrive/Desktop/house-prices-advanced-regression-techniques/dashboards/README.md)
-[![Kaggle Rank](https://img.shields.io/badge/Kaggle-Rank%201092-blue.svg)](#8-final-performance)
-[![RMSLE](https://img.shields.io/badge/RMSLE-0.12365-brightgreen.svg)](#8-final-performance)
+[![Kaggle Rank](https://img.shields.io/badge/Kaggle-Rank%20667-blue.svg)](#8-final-performance)
+[![RMSLE](https://img.shields.io/badge/RMSLE-0.12154-brightgreen.svg)](#8-final-performance)
 
 An end-to-end data analytics and predictive modeling project targeting the Ames, Iowa residential real estate dataset. Developed to identify housing price drivers and construct a high-performing machine learning ensemble. 
 
 ---
 
 ## 1. Executive Summary
-This project showcases a complete real estate analytics framework designed for hiring managers. By combining domain-driven feature engineering and machine learning ensembling, we achieved a local cross-validated **RMSLE of 0.11028** (strictly leak-free) and a public leaderboard score of **0.12365** (Rank **1,092** out of **5,279** teams, placing in the **Top 20.7%**, beating our initial target of 0.125).
+This project showcases a complete real estate analytics framework designed for hiring managers. By combining domain-driven feature engineering and machine learning ensembling, we achieved a local cross-validated **RMSLE of 0.11028** (strictly leak-free) and a public leaderboard score of **0.12154** (Rank **667** out of **5,273** teams, placing in the **Top 12.6%**, beating our initial target of 0.125).
 
 - **Total Features Evaluated**: 80+ columns
 - **Engineered Features**: 16 domain features
@@ -79,8 +79,8 @@ Using out-of-fold validation predictions, we optimized the model blending weight
 
 ## 8. Final Performance
 - **Optimized Ensemble OOF RMSLE**: **0.11028**
-- **Public Leaderboard Score (RMSLE)**: **0.12365**
-- **Leaderboard Rank**: **1,092** out of **5,279** teams (Top **20.7%**)
+- **Public Leaderboard Score (RMSLE)**: **0.12154**
+- **Leaderboard Rank**: **667** out of **5,273** teams (Top **12.6%**)
 - **Validation Standard**: Beats target `0.125` and stretch target `0.120`.
 
 ---

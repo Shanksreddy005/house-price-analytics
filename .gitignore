@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw Kaggle Data (do not commit large data files to GitHub)
+/*.csv
+data/train.csv
+data/test.csv
+data/sample_submission.csv
+data/train_processed.csv
+data/test_processed.csv
+
+# Large serialized models and predictions
+outputs/models/
+outputs/oof_predictions.csv
+outputs/submissions/*.csv
+
+# CatBoost log directories
+catboost_info/
+
+# IDE files
+.vscode/
+.idea/

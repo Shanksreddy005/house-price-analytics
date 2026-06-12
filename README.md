@@ -94,23 +94,14 @@ Using out-of-fold validation predictions, we optimized the model blending weight
 
 ---
 
-## 10. Tableau Dashboard
-A mockup dashboard showcasing key metrics and geographic price distributions was designed and saved:
-
-![Tableau Dashboard Mockup](outputs/visualizations/tableau_dashboard_mockup.png)
-
-See the [Tableau Integration Guide](file:///c:/Users/ShaShank/OneDrive/Desktop/house-prices-advanced-regression-techniques/dashboards/README.md) for data connection specs.
-
----
-
-## 11. Key Learnings
+## 10. Key Learnings
 - **SHAP Interpretability**: Utilizing SHAP plots provides transparency, allowing stakeholders to understand why a model makes specific predictions.
 - **Log Transformations**: Normalizing skewed targets prevents outliers from dominating model gradients, improving linear and tree-based model convergence.
 - **Leakage Prevention**: Fitting encoders/scalers strictly on training folds and applying them to validation sets avoids target leakage.
 
 ---
 
-## 12. Technologies Used
+## 11. Technologies Used
 - Python 3.10, Pandas, NumPy, Scikit-Learn
 - CatBoost, LightGBM, XGBoost
 - SHAP, Matplotlib, Seaborn
